@@ -115,3 +115,9 @@ ax.scatter(ws[w_index], bs[b_index], costs[w_index,b_index], color="red", s=40)
 #print(ws[w_index], bs[b_index])
 #print(f"當ws{ws[w_index]}, bs{bs[b_index]} 會有最小cost:{costs[w_index,b_index]}")
 plt.show()
+#formula 1 = Math.pow(y - y_pred, 2)
+#         = (y - y_pred) = (y - w*x ) = -2x(y-w*x)
+#differential formula above
+#keyword : learning rate, Slope, gradient descent
+#bigger learning rate  bigger step
+# 2*x*(w*x+b-y)
